@@ -1,5 +1,11 @@
-<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
-
-<h1>PDF.js 'Hello, world!' example</h1>
-
-<canvas id="the-canvas"></canvas>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+  </head>
+  <body>
+    <h1>PDF Example with iframe</h1>
+    <iframe src="/ebook.pdf" width="100%" height="500px">
+    </iframe>
+  </body>
+</html>
