@@ -1,11 +1,5 @@
-webix.ui({
-  rows:[
-    { view:"pdfbar", id:"toolbar" },
-    { 
-      view:"pdfviewer", 
-      id:"pdf",
-      toolbar:"toolbar", 
-      url:"binary->https://drive.google.com/file/d/1cpNJgDUE-1rBsGNo6wIfp9DG0sVR9uYM/view"
-    }
-  ]
-});
+<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+
+<h1>PDF.js 'Hello, world!' example</h1>
+
+<canvas id="the-canvas"></canvas>
