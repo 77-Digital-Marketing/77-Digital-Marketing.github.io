@@ -96,8 +96,8 @@ var thePdf = null;
 var scale = 1.5;
 console.log('1pao1')
 pdfjsLib.getDocument(url).promise.then(function(pdf) {
-    console.log(pdf)
-    thePdf = pdf;
+
+  thePdf = pdf;
     viewer = document.getElementById('pdf-render');
 
     for(page = 1; page <= pdf.numPages; page++) {
