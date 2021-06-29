@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,7 +14,7 @@
     <title>PDF Viewer</title>
   </head>
   <body>
-    <div class="top-bar">
+    <!-- <div class="top-bar">
       <button class="btn" id="prev-page">
         <i class="fas fa-arrow-circle-left"></i> Prev Page
       </button>
@@ -22,11 +22,11 @@
         Next Page <i class="fas fa-arrow-circle-right"></i>
       </button>
       <span class="page-info">
-        Page <span id="page-num"></span> of <span id="page-count"></span>
+        Page <span id="page-num"></span> of <span id="page-count"></span> 
       </span>
-    </div>
+    </div> -->
 
-    <canvas id="pdf-render"></canvas>
+    <div id="pdf-render" ></div>
 
     <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
     <script src="js/main.js"></script>
