@@ -26,11 +26,6 @@
   margin-left: 1rem;
 }
 
-#pdf-render {
-  width: 50%;
-  margin: 0 auto;
-}
-
 .error {
   background: orangered;
   color: #fff;
