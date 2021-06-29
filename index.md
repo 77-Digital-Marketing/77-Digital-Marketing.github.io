@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="//code.jivosite.com/widget/CCIzNhUkgV" async></script>
     <title>PDF Viewer</title>
   </head>
   <body>
