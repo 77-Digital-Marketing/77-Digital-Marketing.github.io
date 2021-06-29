@@ -111,7 +111,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdf) {
 function renderPage(pageNumber, canvas) {
     thePdf.getPage(pageNumber).then(function(page) {
       viewport = page.getViewport({scale});
-      console.log(viewport)
       canvas.height = viewport.height;
       canvas.width = viewport.width;          
       page.render({canvasContext: canvas.getContext('2d'), viewport: viewport});
