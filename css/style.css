@@ -26,10 +26,14 @@
   margin-left: 1rem;
 }
 
-/* #pdf-render {
-  margin : auto;
-  width : 70%
-} */
+.pdf-page-canvas {
+  display: inline;
+}
+
+#pdf-render {
+  width: 100%;
+  text-align:center;
+}
 
 .error {
   background: orangered;

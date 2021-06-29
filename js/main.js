@@ -93,7 +93,7 @@ let pdfDoc = null,
 // document.querySelector('#next-page').addEventListener('click', showNextPage);
 
 var thePdf = null;
-var scale = 1.5;
+var scale = 2;
 console.log('pao2')
 pdfjsLib.getDocument(url).promise.then(function(pdf) {
 
