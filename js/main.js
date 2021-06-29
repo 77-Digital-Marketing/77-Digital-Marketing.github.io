@@ -94,6 +94,7 @@ let pdfDoc = null,
 
 var thePdf = null;
 var scale = 1.5;
+console.log('1pao1')
 pdfjsLib.getDocument(url).promise.then(function(pdf) {
     console.log(pdf)
     thePdf = pdf;
