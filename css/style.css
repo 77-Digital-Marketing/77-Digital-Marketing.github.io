@@ -26,10 +26,10 @@
   margin-left: 1rem;
 }
 
-#pdf-render {
+/* #pdf-render {
   margin : auto;
   width : 70%
-}
+} */
 
 .error {
   background: orangered;
