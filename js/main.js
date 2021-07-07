@@ -94,7 +94,7 @@ let pdfDoc = null,
 
 var thePdf = null;
 var scale = 2;
-console.log('pao2')
+
 pdfjsLib.getDocument(url).promise.then(function(pdf) {
 
   thePdf = pdf;
