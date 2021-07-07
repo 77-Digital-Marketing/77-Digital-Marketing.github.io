@@ -54,10 +54,10 @@
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 30px;
+  padding: 25px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 /* Style the social media icons with color, if you want */
